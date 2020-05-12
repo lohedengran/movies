@@ -1,0 +1,42 @@
+$darkgrey: #2d3142;
+$mediumgrey: #4f5d75;
+$lightgrey: #bfc0c0;
+$white: #ffffff;
+$orange: #ef8354;
+
+.body {
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  background-color: $mediumgrey;
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  width: 70vw;
+  margin-top: 30px;
+}
+.button {
+  background-color: $darkgrey;
+  color: $white;
+  border: none;
+  border-radius: 5px;
+  width: 70vw;
+  height: 40px;
+}
+.button:hover {
+  background-color: $orange;
+}
+h2 {
+  color: $white;
+  font-size: 30px;
+  font-weight: 200;
+}
+h3 {
+  color: $white;
+  font-size: 24px;
+  font-weight: 200;
+}
+.search-container {
+  width: 70vw;
+}
