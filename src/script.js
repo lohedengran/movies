@@ -15,7 +15,7 @@ $(document).ready(function () {
 
         if (data.Response === "True") {
           result = `
-        <img style =   width = "200" height = "300" src = '${data.Poster}'/
+        <img style =   width = "200" height = "300" src = '${data.Poster}'</img>
         <h2>${data.Title}</h2>
         <h3>Year of realese: <span>${data.Released}</span></h3>
         <h3>Lenght: <span>${data.Runtime}</span></h3>
